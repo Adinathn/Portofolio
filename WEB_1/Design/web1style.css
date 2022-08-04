@@ -1,0 +1,124 @@
+body{
+    background-color:#0d0d0d;
+    color: rgb(241, 241, 241);
+    margin: 0;
+}
+
+header{
+    background-color: rgb(236, 236, 236);
+    color: rgb(68, 68, 68);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 1px;
+}
+
+.WebNav{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(236, 236, 236);
+}
+
+.subnav{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.subnav:hover{
+    color: black
+}
+.imageProfile{
+    display: flex;
+    justify-content: center;
+    padding: 10px 60px 0px 60px;
+}
+
+.photo{
+    /* max-width: 8%; 
+    max-height: 100%; */
+    width: 240px;
+    border-radius: 50%;
+}
+
+.UserName{
+    text-align: center;
+    font-size: 50px;
+}
+
+.DataDiri{
+    display: flex;
+    justify-content: center;
+}
+
+.subDataDiri{
+    flex-basis: 50rem;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+.UserProfile{
+    position: relative;
+    bottom: 40px;
+}
+
+.subProfile{
+    color: rgb(241, 241, 241);
+}
+
+.ContactPerson{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.subContactPerson{
+    color: aqua;
+    text-decoration: none;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.GithubIcon{
+    position: relative;
+    top: 18px;
+}
+
+.GmailIcon{
+    position: relative;
+    left: 10px;
+}
+
+.LinkedInIcon{
+    position: relative;
+    bottom: 10px;
+}
+
+
+/* ////////////////// */
+
+.line-1 {
+    height: 1px;
+    background: wheat;
+  }
+
+.center{
+    text-align: center;
+}
+
+.biggerFont{
+    position: relative;
+    right: 10px;
+    font-size: 25px;
+}
+
+.bordered{
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(61, 207, 68);
+}
