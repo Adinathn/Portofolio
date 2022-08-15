@@ -1,0 +1,161 @@
+body{
+    background-color:#0d0d0d;
+    color: rgb(241, 241, 241);
+    margin: 0;
+}
+
+.mainPageBackgroud2{
+    position: relative;
+    top: 600px;
+    opacity: 55%;
+    rotate: 90deg;
+}
+
+.mainPageContentContainer{
+    position: relative;
+    bottom: 100%;
+}
+
+.WebNav{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    position: relative;
+    top: 30px;
+    right: 50px;
+}
+
+.subnav{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+.subnav:hover{
+    color: red
+    
+}
+.mainPageContentItem{
+    display: flex;
+    justify-content: left;
+    padding: 100px 60px 0px 60px;
+    gap: 150px;
+}
+
+.submainPageContent{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 36%;
+    justify-content: center;
+    /* margin-left: ; */
+    margin-top: 3.5%;
+}
+
+.sub2MainPageContent{
+    /* background-color: aqua; */
+}
+
+.sub3MainPageContent{
+    padding-bottom: 0px;
+}
+
+.sub4MainPageContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.ContactPerson{
+    position:relative;
+    margin-left: 18px;
+    margin-right: 18px;
+    bottom: 35px;
+}
+
+.GithubIcon{
+    margin-left: 80px;
+}
+
+.GmailIcon{
+    margin-top: 7px;
+    margin-left: 15px;
+    height: 100px;
+}
+
+.LinkedInIcon{
+    position: relative;
+    bottom: 5px;
+    height: 130px;
+}
+
+.photo{
+    position: relative;
+    max-height: 400px;
+    width: 400px;
+    left: 18%;
+    object-fit: cover;
+    border-radius: 50%;
+    rotate: 0deg;
+}
+
+.UserName{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    position: relative;;
+    text-align: center;
+    font-size: 40px;
+    bottom: 10px;
+}
+
+.Profile{
+    flex-grow: 1;
+    background-color: black;
+    /* padding-left: 12%; */
+    opacity: 60%;
+    height: 500px;
+    text-align: center;
+}
+
+.DataDiri{
+    display: flex;
+    justify-content: center;
+}
+
+.subDataDiri{
+    flex-basis: 50rem;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+/* ////////////////// */
+
+.line-1 {
+    height: 1px;
+    background: wheat;
+  }
+
+.center{
+    text-align: center;
+}
+
+.biggerFont{
+    position: relative;
+    right: 10px;
+    font-size: 25px;
+}
+
+.borderedgreen{
+    border-style: solid;
+    border-color: rgb(61, 207, 68);
+}
+
+.borderedred{
+    border-style: solid;
+    border-color: rgb(231, 0, 0);
+}
+
+.fullOpacity{
+    opacity: 100%;
+}

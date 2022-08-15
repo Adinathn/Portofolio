@@ -1,0 +1,19 @@
+1. instal sudo apt install npm
+
+2. npm init
+
+3. npm install express
+
+4. npm run startss
+
+5. npm install ejs
+
+gsutil ls gs://gambarprofilebucket/PhotoProfile.jpeg
+
+alamat IP: http://34.121.108.191/
+
+screenshoot halaman detail dari cloud storage bucket
+
+https://www.youtube.com/watch?v=ctACCk80H-w
+
+bucketmenjadicloudengineerdicoding
